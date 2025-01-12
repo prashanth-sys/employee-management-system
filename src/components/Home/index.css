@@ -1,0 +1,41 @@
+.bg-container{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.main-heading{
+    color: #2c3e50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
+}
+/*.quote{
+    font-family: "Lucida Console", "Courier New", monospace;
+}*/ 
+
+.quote {
+    font-size: 1.5rem;
+    color: #34495e;
+    font-style: italic;
+    overflow: hidden; /* Hides text outside the container */
+    white-space: nowrap; /* Prevents text from wrapping */
+    border-right: 2px solid #34495e; /* Adds a typing cursor */
+    animation: typewriter 4s steps(80, end), blink 0.75s step-end infinite;
+  }
+  
+  /* Typewriter Effect */
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Blinking Cursor */
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

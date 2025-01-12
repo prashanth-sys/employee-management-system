@@ -1,0 +1,42 @@
+.header-content{
+    background-color: #ffffff;
+    height: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.logo-image{
+    border-radius: 9px;
+    width: 70px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-heading{
+    font-size: 13px;
+    margin: 12px;
+    margin-left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin-left: 235px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-1{
+    margin: 9px;
+}
+.list-2{
+    margin: 9px;
+}
+.list-3{
+    margin: 9px;
+}
+.link{
+    text-decoration: none;
+}
